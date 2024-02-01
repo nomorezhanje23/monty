@@ -1,13 +1,11 @@
 #include "monty.h"
-
-/*bus_t bus = {NULL, NULL, NULL, 0};*/
-
+bus_t bus = {NULL, NULL, NULL, 0};
 /**
- * main - the interpreter of monty code
- * @argc: arguments number
- * @argv: file location for monty
- * Return: 0 upon success
- */
+* main - monty code interpreter
+* @argc: arguments
+* @argv: monty file location
+* Return: 0 upon success
+*/
 int main(int argc, char *argv[])
 {
 	char *content;
