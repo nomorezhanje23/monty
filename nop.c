@@ -1,9 +1,9 @@
 #include "monty.h"
 /**
-  *f_nop - returning nothing
+  *f_nop- return nothing
   *@head: head stack
   *@counter: number line
-  *Return: return nothing
+  *Return: noyhing
   */
 void f_nop(stack_t **head, unsigned int counter)
 {
